@@ -1,0 +1,26 @@
+{
+  "name": "isbn-validator",
+  "version": "0.0.0",
+  "description": "Check if number sequence is a valid ISBN ",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thewazir/isbn-validator.git"
+  },
+  "keywords": [
+    "ISBN",
+    "validator"
+  ],
+  "author": "Omer Wazir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thewazir/isbn-validator/issues"
+  },
+  "homepage": "https://github.com/thewazir/isbn-validator",
+  "devDependencies": {
+    "tape": "^3.2.0"
+  }
+}
