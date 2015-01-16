@@ -2,7 +2,7 @@
 ISBN Validator return BOOLEAN true or false if a string is a valid ISBN
 
 ## Usage
-```
+``` js
 var isbnIsValid = require('isbn-validator');
 
 //pass a string to get a response.
