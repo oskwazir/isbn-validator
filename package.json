@@ -4,7 +4,8 @@
   "description": "Check if number sequence is a valid ISBN ",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js | tap-dot"
+    "test": "zuul -- test.js",
+    "tape-test": "tape test/*.js | tap-dot"
   },
   "repository": {
     "type": "git",
