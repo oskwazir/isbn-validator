@@ -1,6 +1,9 @@
 # isbn-validator
 ISBN Validator return BOOLEAN true or false if a string is a valid ISBN
 
+[![Build Status](https://travis-ci.org/thewazir/isbn-validator.svg?branch=master)](https://travis-ci.org/thewazir/isbn-validator)
+
+
 ## Usage
 ``` js
 var isbnIsValid = require('isbn-validator');
