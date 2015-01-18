@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "zuul -- test.js",
-    "tape-test": "tape test/*.js | tap-dot"
+    "test-local": "zuul --local -- test/*.js"
   },
   "repository": {
     "type": "git",
@@ -35,8 +35,7 @@
   },
   "homepage": "https://github.com/thewazir/isbn-validator",
   "devDependencies": {
-    "browserify": "^8.1.1",
-    "tap-dot": "^0.2.3",
-    "tape": "^3.2.0"
+    "tape": "^3.2.0",
+    "zuul": "^1.16.4"
   }
 }
