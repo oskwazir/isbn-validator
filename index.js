@@ -11,7 +11,6 @@ function isbnValidator(isbnCode){
   }
 
   self.sumOfSequence = function hasRemainder(sequence){
-    console.log('inside sumOfSequence');
     var numberTenInISBN = "X";
     var sum = 0;
     var factor = 10;
@@ -35,7 +34,6 @@ function isbnValidator(isbnCode){
   };
 
   self.validate = function validate(sequence){
-    //The sum of values in a valid ISBN code must be divisble by 11 without a remainder
     var isValid = (sumOfSequence(sequence) % 11 === 0) ? true : false;
     return isValid;
   }
