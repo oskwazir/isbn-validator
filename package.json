@@ -4,7 +4,7 @@
   "description": "Check if number sequence is a valid ISBN ",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js | tap-dot"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,7 @@
   "homepage": "https://github.com/thewazir/isbn-validator",
   "devDependencies": {
     "browserify": "^8.1.1",
+    "tap-dot": "^0.2.3",
     "tape": "^3.2.0"
   }
 }
