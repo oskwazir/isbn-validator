@@ -1,8 +1,10 @@
 # isbn-validator
 ISBN Validator return BOOLEAN true or false if a string is a valid ISBN
 
+[![NPM Version][npm-version]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
+[![Downloads][downloads-image]][npm-url]
 
 ## Usage
 ``` js
@@ -28,8 +30,10 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <!-- vars -->
-
+[npm-version]:https://img.shields.io/npm/v/isbn-validator.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/isbn-validator
 [travis-image]:https://img.shields.io/travis/thewazir/isbn-validator.svg?style=flat-square
 [travis-url]:https://travis-ci.org/thewazir/isbn-validator
 [license-image]:https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license-url]: #license
+[downloads-image]: http://img.shields.io/npm/dm/isbn-validator.svg?style=flat-square
