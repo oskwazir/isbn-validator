@@ -29,8 +29,8 @@ function isbnValidator(isbnCode){
     return sum;
   };
 
-  self.isCorrectLength = function correctFormat(isbn){
-    return (isbn.length === 10) ? true : false;
+  self.isCorrectFormat = function correctFormat(isbn){
+    return isbn.match(/\d\d\d\d\d\d\d\d\d[0-9|xX]$/);
   };
 
   self.validate = function validate(sequence){
@@ -40,7 +40,7 @@ function isbnValidator(isbnCode){
 
   self.isbn = self.replaceDashes(isbnCode);
 
-  if(self.isCorrectLength(self.isbn)) {
+  if(self.isCorrectFormat(self.isbn)) {
     return self.validate((self.isbn));
   } else {
     return false;
