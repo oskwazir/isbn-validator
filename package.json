@@ -1,6 +1,6 @@
 {
   "name": "isbn-validator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Check if number sequence is a valid ISBN ",
   "main": "index.js",
   "scripts": {
