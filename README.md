@@ -38,5 +38,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [license-image]:https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license-url]: #license
 [downloads-image]: http://img.shields.io/npm/dm/isbn-validator.svg?style=flat-square
-[dependencies-img]:https://img.shields.io/david/thewazir/isbn-validator.svg?style=flat-square
+[dependencies-image]:https://img.shields.io/david/thewazir/isbn-validator.svg?style=flat-square
 [dependencies-url]:https://github.com/thewazir/isbn-validator/blob/master/package.json
